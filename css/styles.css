@@ -1,6 +1,5 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	background-color: var(--white-color-text);
 	color: var(--main-color-text);
 	margin: 0;
 	padding: 0;
@@ -10,6 +9,7 @@ body{
 font-family: 'Roboto', sans-serif; */
 
 :root{
+	--main-bg--color: #F5F5F5;
 	--main-color-text: #757575;
 	--secondary-color-text: #212121;
 	--white-color-text: #FFFFFF;
@@ -32,6 +32,10 @@ font-family: 'Roboto', sans-serif; */
 
 .logo span{
 	color: var(--accent-color);
+}
+
+.header{
+background-color: var(--white-color-text);
 }
 
 .header-list{
@@ -95,6 +99,10 @@ font-family: 'Roboto', sans-serif; */
 
 /* section advantages */
 
+.advantages{
+	background-color: var(---white-color-text);
+}
+
 .advantages-list{
 	list-style: none;
 }
@@ -112,6 +120,10 @@ font-family: 'Roboto', sans-serif; */
 }
 /* section doing */
 
+.doing{
+	background-color: var(--white-color-text);
+}
+
 .doing-items{
 	list-style: none;
 }
@@ -128,7 +140,7 @@ font-family: 'Roboto', sans-serif; */
 /* section team */
 
 .team{
-	background-color: #F5F4FA;
+	background-color: var(--button-bg-color);
 }
 
 .team-list{
@@ -175,6 +187,10 @@ background-color: var(--bg-color);
 
 /* Page Portfolio */
 /* section portfolio */
+
+.works{
+	background-color: var(--white-color-text);
+}
 
 .works-item{
 	list-style: none;
